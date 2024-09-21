@@ -28,7 +28,6 @@ export class TooltipButton {
     const targetButton = this.buttons.find(
       (button) => button.button === e.target,
     );
-    debugger;
     targetButton.tooltip.classList.toggle("hide-tooltip");
   }
 }
